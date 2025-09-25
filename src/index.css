@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+[priority="high"] {
+  --color-bg: red;
+}
+[priority="medium"] {
+  --color-bg: gold;
+}
+[priority="low"] {
+  --color-bg: green;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(33, 33, 33);
+}

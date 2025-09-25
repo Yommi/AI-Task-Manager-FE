@@ -1,0 +1,7 @@
+.priority {
+  background-color: var(--color-bg);
+  display: inline-block;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5vh 1vw;
+}
