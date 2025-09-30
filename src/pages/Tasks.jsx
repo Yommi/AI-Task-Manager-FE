@@ -224,6 +224,7 @@ const Tasks = () => {
                 type="checkbox"
                 className="hover:cursor-pointer"
                 checked={selectedTasks.includes(task._id)}
+                onClick={(e) => e.stopPropagation()}
                 onChange={(e) =>
                   handleCheckboxChange(task._id, e.target.checked)
                 }
